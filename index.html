@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <style>
+    * {margin: 0;box-sizing: border-box }
+
+    ul,ol,li {list-style: none; margin:0; padding:0;}
+
+    header {
+      width: 100%;
+      height: 270px;
+      background-color: purple;
+      margin: 0 auto;
+    }
+
+    #wrap {
+      width: 1260px;
+      height: 40px;
+      background-color: yellow;
+      margin:0 auto;
+    }
+
+    #login {
+      width: 400px;
+      height: 40px;
+      background-color: red;
+      float: left;
+      display: block;
+    }
+
+    #login> ul a {
+      text-decoration: none;
+      color: black;
+    }
+
+    #login> ul>li {
+      float: left;
+      font-size: 14px;
+      margin: 5px 0 2px 0;
+    }
+
+    #comunity {
+      width: 400px;
+      height: 40px;
+      background-color: beige;
+      
+      float:right;
+
+    }
+    #comunity > ul > li {
+      float: right;
+      font-size: 14px;
+      margin: 5px 0 2px 0;
+      background-color: crimson;
+    }
+    #comunity > ul >li > a {
+      text-decoration: none;
+      color: black;
+    }
+
+    #header-middle{width:1260px; height:110px; background-color:bisque; margin:0 auto;}
+
+
+    #logo {
+      width: 110px;
+      height: 110px;
+      background-color: cyan;
+      margin: 50px 400px 50px 400px;
+    }
+
+
+    #search {
+      width: 220px;
+      height: 28px;
+      background-color: blueviolet;
+      float: right;
+      margin: -120px 20px 30px 0;
+      border-radius: 20px;
+    }
+
+    #search > a >img {
+      float: right;
+      margin: 10px 20px 10px 10px;
+    }
+
+   
+
+    nav {
+      width: 100%;
+      height: 55px;
+      background-color: blue;
+      
+     }
+
+    nav > ul {margin:0 auto; width:1260px; height:49px; background-color: gold;}
+
+    nav > ul > li {
+      float:left;
+      font-size: 14px;
+      margin: 0px 25px 0 25px; }
+
+    nav > ul> li> a {
+      text-decoration: none;
+      color: black; 
+    }
+
+   nav > ul> li >a:hover {
+      color: beige;
+    }
+
+    #slider {
+      width: 1980px;
+      height: 3000px;
+      background-color: bisque;
+      margin: 0 auto;
+    }
+
+    #slider> a >img {
+      width: 100%;
+      height: 100%;
+    }
+
+    #imgbox1 {
+      width: 500px;
+      height: 580px;
+      float: left;
+      margin: 0 150px 0 150px;
+    }
+
+    #imgbox2 {
+      width: 500px;
+      height: 580px;
+      float: left;
+      margin: 0 150px 0 150px;
+    }
+
+    #sale {width:1261px; height:415px; background-color:cyan; float:left; margin: 50px 250px 20px 300px;}
+    article {width:407px; height:415px; float:left; background-color:blue; margin:0 10px 0 0;}
+
+    #recommand {width:100%; height:1600px; background-color: skyblue; float:left; }
+    #recommand > h3 {width:100%; height:51px; background-color:magenta; text-align:center; margin:40px 0 10px 0;}
+    #recommand > a > img {width:1960px; height:280px; background-color:pink; margin:30px 0px 0 10px;}
+
+    #boxtop {width:1260px; height:1027px; margin: 10px 151px 0 151px; background-color:tomato; margin:130px 0 20px 300px;}
+
+    .box1 {width:300px; height:477px;  float:left; background-color:cornsilk; padding:20px; }
+
+    #boxtop > .box1:first-of-type{margin:6px;}
+    #boxtop > .box1:nth-of-type(2){margin:6px;}
+    #boxtop > .box1:nth-of-type(3){margin:6px;}
+    #boxtop > .box1:nth-of-type(4){margin:6px;}
+    #boxtop > .box1:nth-of-type(5){margin:6px;}
+    #boxtop > .box1:nth-of-type(6){margin:6px;}
+    #boxtop > .box1:nth-of-type(7){margin:6px;}
+    #boxtop > .box1:last-of-type{margin:6px;}
+
+    #hot {width:100%; height:500px; background-color:lightcoral; float:left; }
+    #hot > a >img {width:1960px; height:200px; background-color:aqua;margin:50px 0 10px 10px;}
+    #hot > h3 {text-align:center; font-size:12px; background-color: magenta; margin:20px 0 10px 0;}
+    #hot > p {text-align:center; font-size:8px; background-color:gray;}
+ 
+     
+    section {
+      width: 1989px;
+      height: 950px;
+      background-color: gray;
+      margin: 0 auto;
+    }
+
+
+
+    footer {
+      width: 100%;
+      height: 702px;
+      background-color: pink;
+      margin: 0 auto;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <div id="wrap">
+      
+      <div id="login">
+
+        <ul>
+
+          <li><a href="#">회원가입</a></li>
+
+          <li>ㅣ</li>
+
+          <li><a href="#">로그인</a></li>
+
+          <li>ㅣ</li>
+
+          <li><a href="#">장바구니</a></li>
+
+          <li>ㅣ</li>
+
+          <li><a href="#">주문조회</a></li>
+
+          <li>ㅣ</li>
+
+          <li><a href="#">마이페이지</a></li>
+
+          <li>ㅣ</li>
+
+        </ul>
+      </div>
+      
+      <div id="comunity">
+        <ul>
+          <li>ㅣ</li>
+
+          <li><a href="#">고객센터</a></li>
+
+          <li>ㅣ</li>
+
+          <li><a href="#">커뮤니티</a></li>
+        </ul>
+
+      </div>
+
+
+
+    </div>
+    
+
+<div id="header-middle">
+    <div id="logo">
+
+      <a href="#"><img src="https://soonsumall.com/web/upload/NNEditor/20220406/8d60dc089c3573554663aca5de3c66ad.png"
+          alt="순수조명로고"></a>
+
+    </div>
+
+
+    <div id="search">
+      <a href="#"><img src="https://soonsumall.com/G_design/PC/btn/btn_search.png" alt="검색돋보기"></a>
+
+    </div>
+  </div>
+
+   
+
+      <nav>
+
+
+        <ul>
+          <li><a href="#">인테리어</a></li>
+          <li><a href="#">LED전구</a></li>
+          <li><a href="#">방등</a></li>
+          <li><a href="#">거실등</a></li>
+          <li><a href="#">식탁등</a></li>
+          <li><a href="#">레일조명</a></li>
+          <li><a href="#">관'베란다</a></li>
+          <li><a href="#">욕실'베일</a></li>
+          <li><a href="#">벽등</a></li>
+          <li><a href="#">태양열조명</a></li>
+          <li><a href="#">콘텐츠'스위치</a></li>
+          <li><a href="#">전기자재</a></li>
+
+        </ul>
+
+      </nav>
+    
+
+  </header>
+
+  <div id="slider">
+    <div id="imgbox1">
+      <a href="#"><img src="https://soonsumall.com/web/upload/NNEditor/20210929/4776b8834f2a12ca7f6d2e02dc5b2499.jpg"
+          alt="슬라이더 이미지 1"></a>
+
+    </div>
+
+    <div id="imgbox2">
+      <a href="#"><img src="https://soonsumall.com/web/upload/NNEditor/20220308/0faa43eb1113016c050573c1138bf023.jpg"
+          alt="슬라이더 이미지 2"></a>
+
+    </div>
+
+    <div id="sale">
+      <article>
+        <a href="#"><img src="" alt=""></a>
+      </article>
+      <article>
+        <a href="#"><img src="" alt=""></a>
+      </article>
+      <article>
+        <a href="#"><img src="" alt=""></a>
+      </article>
+    </div>
+
+    <div id="recommand">
+      <a href="#"><img src=""></a>
+      <h3>추천</h3>
+
+      <div id="boxtop">
+
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+  <div id="hot">
+    <a href="#"><img src=""></a>
+    <h3>WEEKLY BEST</h3>
+    <p>더 좋은 제품으로 신상품 만나보세요</p>
+    
+
+ 
+
+  </div>
+
+  <section>
+
+
+
+  </section>
+
+
+
+  <footer>
+
+
+
+  </footer>
+
+
+</body>
+
+</html>
